@@ -3,3 +3,10 @@
 h1{
 	color:#F60;
 }
+
+h1:hover {
+	color: blue;
+	transtion: color .2s ease-out;
+	
+	-webkit-transition: color .2s ease-out;
+}
